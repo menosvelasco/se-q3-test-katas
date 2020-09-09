@@ -10,12 +10,10 @@ class TestKatas(unittest.TestCase):
         self.assertEqual(katas.add(-5, 10), 5)
 
     def test_multiply(self):
-        result = katas.multiply(2, 8)
-        self.assertEqual(result, 16)
+        self.assertEqual(katas.multiply(2, 8), 16)
 
     def test_power(self):
-        result = katas.power(2, 2)
-        self.assertEqual(result, 4)
+        self.assertEqual(katas.power(2, 2), 4)
 
     def test_factorial(self):
         self.assertIsNotNone(katas.factorial)
